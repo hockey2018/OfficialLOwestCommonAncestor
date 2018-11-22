@@ -66,7 +66,7 @@ public class LCA <Key extends Comparable<Key>, Value>{
 	
 	
 		
-		private void delete(Key key) {
+		void delete(Key key) {
 			// TODO Auto-generated method stub
 			
 		}
@@ -254,6 +254,10 @@ public class LCA <Key extends Comparable<Key>, Value>{
 		   
 		         return node.key;
 		 	}
+			public void put(int i, int j) {
+				// TODO Auto-generated method stub
+				
+			}
 				
 			}
 
